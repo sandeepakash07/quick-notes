@@ -1,0 +1,43 @@
+/* Reset some basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f5f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2f3640;
+}
+
+/* Make text selection nice */
+::selection {
+  background-color: #00a8ff;
+  color: white;
+}
+
+/* Scrollbar (optional styling) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dcdde1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a4b0be;
+}
+
+/* Link styling (optional) */
+a {
+  color: #00a8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
